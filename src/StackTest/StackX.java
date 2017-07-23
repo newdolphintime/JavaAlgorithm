@@ -2,7 +2,7 @@ package StackTest;
 
 /**
  * Created by zhangwei on 2017/7/23.
- * 栈的结构特点先进先出
+ * 栈的结构特点后进先出
  */
 public class StackX {
     private int maxSize;//栈的尺寸
