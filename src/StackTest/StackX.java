@@ -17,7 +17,7 @@ public class StackX {
 
     //推入操作
     public void push(char c) {
-        stackArray[++top] = c;//top先加再操作
+        stackArray[++top] = c; //top先加再操作
     }
 
     //推出一个元素

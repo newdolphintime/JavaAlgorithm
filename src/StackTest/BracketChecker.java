@@ -47,7 +47,7 @@ public class BracketChecker {
     }
 
     public static void main(String[] args) {
-        BracketChecker bracketChecker = new BracketChecker("(1{2[3(4)5]6})");
+        BracketChecker bracketChecker = new BracketChecker("((1*2)+(3*4))");
         bracketChecker.check();
     }
 }
