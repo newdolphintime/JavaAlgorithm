@@ -10,6 +10,7 @@ public class StackX {
     private int top;
 
     public StackX(int maxSize) {
+
         this.maxSize = maxSize;
         stackArray = new char[this.maxSize];
         top = -1;
