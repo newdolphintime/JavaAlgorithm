@@ -1,5 +1,6 @@
 /**
  * Created by zhangwei on 2017/7/18.
+ * 什么都不想写
  */
 public class Array_study_01 {
 
