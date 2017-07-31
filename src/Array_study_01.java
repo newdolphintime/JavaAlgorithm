@@ -13,7 +13,7 @@ public class Array_study_01 {
 
         int itemnum;//不为空的元素个数
 
-        int j;//计数器
+        int j; //计数器
 
         int serchkey;
 
