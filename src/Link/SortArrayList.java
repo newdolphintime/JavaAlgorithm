@@ -2,6 +2,7 @@ package Link;
 
 /**
  * Created by zhangwei on 2017/8/1.
+ * 利用链表数据结构排序
  */
 public class SortArrayList {
     private Link first;
