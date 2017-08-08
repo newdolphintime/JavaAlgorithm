@@ -7,6 +7,9 @@ public class Link {
     public int dData;
     public Link next;
 
+    //特地为双端链表添加的属性 该连接点的前一个元素
+    public Link previous;
+
     public Link(int dd) {
         dData = dd;
     }
