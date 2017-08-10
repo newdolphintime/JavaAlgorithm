@@ -7,6 +7,7 @@ public class doublyLinked {
     public doublyLinked(){
         first = null;
         last = null;
+
     }
 
     public boolean isEmpty(){
