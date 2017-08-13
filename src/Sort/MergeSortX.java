@@ -8,7 +8,7 @@ package Sort;
 public class MergeSortX {
     public static void main(String[] args) {
         //int[] data = new int[]{5,3,6,2,1,9,4,8,7};
-        int[] data = new int[]{21, 64, 33, 70};
+        int[] data = new int[]{64, 21, 70, 33};
 
         System.out.println("排序前的数组");
         print(data);
