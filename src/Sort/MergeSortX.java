@@ -3,10 +3,13 @@ package Sort;
 /**
  * Created by zhangwei on 2017/8/12.
  * 完整版的归并排序
+ *
  */
 public class MergeSortX {
     public static void main(String[] args) {
-        int[] data = new int[]{5,3,6,2,1,9,4,8,7};
+        //int[] data = new int[]{5,3,6,2,1,9,4,8,7};
+        int[] data = new int[]{21, 64, 33, 70};
+
         System.out.println("排序前的数组");
         print(data);
         mergeSort(data);
@@ -15,7 +18,7 @@ public class MergeSortX {
     }
 
     public static void mergeSort(int[] data) {
-        sort(data,0,data.length-1);
+        sort(data, 0, data.length - 1);
 
     }
 
@@ -31,7 +34,7 @@ public class MergeSortX {
         //对右边进行递归
         sort(data, center + 1, right);
         //合并
-        merge(data,left,center,right);
+        merge(data, left, center, right);
         print(data);
     }
 
@@ -69,24 +72,24 @@ public class MergeSortX {
             }
         }
         //剩余部分依次放入临时数组 两个只会执行其中一个
-        while(mid <= right){
-            tmpArray[cur++]=data[mid++];
+        while (mid <= right) {
+            tmpArray[cur++] = data[mid++];
 
         }
-        while(left<=center){
-            tmpArray[cur++]=data[left++];
+        while (left <= center) {
+            tmpArray[cur++] = data[left++];
         }
 
-        while(tmp<=right){
-            data[tmp]=tmpArray[tmp++];
+        while (tmp <= right) {
+            data[tmp] = tmpArray[tmp++];
         }
 
 
     }
 
-    public static void print(int[] data){
+    public static void print(int[] data) {
         for (int i = 0; i < data.length; i++) {
-            System.out.print(data[i]+" ");
+            System.out.print(data[i] + " ");
         }
         System.out.println("");
     }
