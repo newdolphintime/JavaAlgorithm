@@ -20,6 +20,7 @@ public class MergeSortX {
     public static void mergeSort(int[] data) {
         sort(data, 0, data.length - 1);
 
+
     }
 
     public static void sort(int[] data, int left, int right) {
