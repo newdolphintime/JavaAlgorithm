@@ -32,6 +32,7 @@ public class MergeSortX {
         }
         //找出中间索引
         int center = (left + right) / 2;
+        System.out.println("找到中间索引"+center);
         //对左边进行递归
         sort(data, left, center);
         //对右边进行递归
@@ -39,6 +40,7 @@ public class MergeSortX {
         //合并
         merge(data, left, center, right);
         print(data);
+        System.out.println("退出》》》》》"+left+"--"+right);
     }
 
     /*
