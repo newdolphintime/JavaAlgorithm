@@ -25,7 +25,9 @@ public class MergeSortX {
 
     public static void sort(int[] data, int left, int right) {
         //记得是大于等于 不然会java.lang.StackOverflowError
+        System.out.println("进入"+left+"--"+right);
         if (left >= right) {
+            System.out.println("不行返回"+left+"-"+right);
             return;
         }
         //找出中间索引
@@ -52,6 +54,7 @@ public class MergeSortX {
     * right 右数组最后一个索引
     * */
     public static void merge(int[] data, int left, int center, int right) {
+
         //临时数组
         int[] tmpArray = new int[data.length];
 
@@ -63,6 +66,7 @@ public class MergeSortX {
 
         //缓存左数组第一个元素的索引
         int tmp = left;
+        System.out.println("开始归并排序"+left+"--"+center+"和"+mid+"--"+right);
 
         while (left <= center && mid <= right) {
             if (data[left] <= data[mid]) {
