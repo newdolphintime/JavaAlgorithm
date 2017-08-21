@@ -22,6 +22,7 @@ public class mergeSort {
                 c[cDex++] = a[aDex++];
             } else {
                 c[cDex++] = b[bDex++];
+
             }
 
 
