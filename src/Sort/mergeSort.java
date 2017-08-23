@@ -9,6 +9,7 @@ public class mergeSort {
         int[] a = {7, 47, 81, 95};
         int[] b = {7, 14, 39, 55, 62, 74};
         int[] c = new int[10];
+
         merge(a, b, c);
 
         display(c);
