@@ -15,6 +15,7 @@ public class mergeSort {
 
         display(c);
 
+
     }
 
     public static void merge(int[] a, int[] b, int[] c) {
