@@ -23,6 +23,7 @@ public class mergeSort {
 
         while (aDex < a.length && bDex < b.length) {
             if (a[aDex] < b[bDex]) {
+
                 c[cDex++] = a[aDex++];
             } else {
                 c[cDex++] = b[bDex++];
