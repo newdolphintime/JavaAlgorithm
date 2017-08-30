@@ -19,7 +19,6 @@ public class mergeSort {
 
     public static void merge(int[] a, int[] b, int[] c) {
         int aDex = 0, bDex = 0, cDex = 0;
-
         while (aDex < a.length && bDex < b.length) {
             if (a[aDex] < b[bDex]) {
 
