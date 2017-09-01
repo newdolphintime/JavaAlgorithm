@@ -19,6 +19,7 @@ public class insertSort {
                     a[j] = a[j - 1];
                     a[j - 1] = temp;
                 } else {
+
                     break;//左边已经是有序的了，不需要再排序了。
                 }
             }
