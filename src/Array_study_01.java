@@ -25,7 +25,7 @@ public class Array_study_01 {
         intArray[5] = 55;
         
         intArray[6] = 77;
-        intArray[7] = 44;
+        intArray[7] = 43;
         intArray[8] = 22;
         intArray[9] = 67;
 
