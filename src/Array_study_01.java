@@ -20,6 +20,7 @@ public class Array_study_01 {
         intArray[0] = 11;
         intArray[1] = 22;
         intArray[2] = 99;
+        
         intArray[3] = 33;
         intArray[4] = 66;
         intArray[5] = 55;
