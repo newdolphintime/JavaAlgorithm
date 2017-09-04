@@ -20,7 +20,7 @@ public class insertSort {
                     a[j - 1] = temp;
                 } else {
 
-                    break;//左边已经是有序的了，不需要再排序了。
+                    break;//左边已经是有序的了，不需要再排序了 。
                 }
             }
 
