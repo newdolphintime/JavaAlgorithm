@@ -6,6 +6,7 @@ public class insertSort {
         int a[] = {76, 43, 35, 67};
         showArray(a);
         insertSort(a);
+        
         showArray(a);
 
 
