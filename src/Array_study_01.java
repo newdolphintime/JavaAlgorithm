@@ -7,6 +7,7 @@ public class Array_study_01 {
     public static void main(String[] args) {
 
         int intArray[] = new int[10];
+        
         //数组的长度属性
         int arrayLength = intArray.length;
         System.out.println("该数组的长度" + arrayLength);
