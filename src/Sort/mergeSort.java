@@ -24,6 +24,7 @@ public class mergeSort {
             if (a[aDex] < b[bDex]) {
 
                 c[cDex++] = a[aDex++];
+
             } else {
 
                 c[cDex++] = b[bDex++];
