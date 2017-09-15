@@ -34,6 +34,7 @@ public class mergeSort {
 
         }
         //当B已经空了的时候
+
         while (aDex < a.length) {
             c[cDex++] = a[aDex++];
 
