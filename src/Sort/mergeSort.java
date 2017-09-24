@@ -44,6 +44,7 @@ public class mergeSort {
         while (bDex < b.length) {
 
             c[cDex++] = b[bDex++];
+
         }
     }
 
