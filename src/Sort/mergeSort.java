@@ -13,6 +13,7 @@ public class mergeSort {
 
 
         merge(a, b, c);
+
         display(c);
 
 
