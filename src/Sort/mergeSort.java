@@ -11,7 +11,6 @@ public class mergeSort {
 
         int[] c = new int[10];
 
-
         merge(a, b, c);
 
         display(c);
