@@ -25,6 +25,7 @@ public class mergeSort {
         int aDex = 0, bDex = 0, cDex = 0;
 
         while (aDex < a.length && bDex < b.length) {
+
             if (a[aDex] < b[bDex]) {
 
                 c[cDex++] = a[aDex++];
