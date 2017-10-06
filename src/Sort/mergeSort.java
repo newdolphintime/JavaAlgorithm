@@ -5,6 +5,7 @@ package Sort;
  * 归并排序
  */
 public class mergeSort {
+
     public static void main(String[] args) {
 
         int[] a = {7, 47, 81, 95};
