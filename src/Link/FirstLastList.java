@@ -18,6 +18,7 @@ public class FirstLastList {
     }
 
     public void insertFirst(int dd) {
+
         Link newLink = new Link(dd);
 
         if (isEmpty()) {
