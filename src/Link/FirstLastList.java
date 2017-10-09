@@ -5,6 +5,7 @@ package Link;
  * 双端链表
  */
 public class FirstLastList {
+
     private Link first;
     private Link last;
 
