@@ -7,6 +7,7 @@ package Link;
 public class FirstLastList {
 
     private Link first;
+
     private Link last;
 
     public FirstLastList() {
