@@ -62,6 +62,7 @@ public class FirstLastList {
 
     public static void main(String[] args) {
         FirstLastList firstLastList = new FirstLastList();
+
         firstLastList.insertFirst(30);
         firstLastList.insertFirst(20);
         firstLastList.insertFirst(10);
