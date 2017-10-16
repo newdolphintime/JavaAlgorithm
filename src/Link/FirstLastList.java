@@ -72,6 +72,7 @@ public class FirstLastList {
         firstLastList.insertFirst(10);
 
         firstLastList.displayList();
+
         firstLastList.insertLast(50);
         firstLastList.insertLast(40);
         firstLastList.insertLast(80);
