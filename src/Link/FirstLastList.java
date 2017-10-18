@@ -76,6 +76,7 @@ public class FirstLastList {
         firstLastList.insertLast(50);
 
         firstLastList.insertLast(40);
+
         firstLastList.insertLast(80);
         firstLastList.displayList();
     }
