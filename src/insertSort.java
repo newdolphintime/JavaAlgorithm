@@ -6,18 +6,18 @@ public class insertSort {
         int a[] = {76, 43, 35, 67};
         showArray(a);
         insertSort(a);
-        
-        showArray(a);
 
+        showArray(a);
 
 
     }
 
-    
+
     public static void insertSort(int[] a) {
         for (int i = 0; i < a.length - 1; i++) {
             for (int j = i + 1; j > 0; j--) {
                 if (a[j] < a[j - 1]) {
+
                     int temp = a[j];
                     a[j] = a[j - 1];
                     a[j - 1] = temp;
