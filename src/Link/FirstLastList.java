@@ -33,6 +33,7 @@ public class FirstLastList {
     public void insertLast(int ss) {
         Link newLink = new Link(ss);
         if (isEmpty()) {
+
             first = newLink;
         } else {
             last.next = newLink;
