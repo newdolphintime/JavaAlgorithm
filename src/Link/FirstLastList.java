@@ -49,6 +49,7 @@ public class FirstLastList {
         if (first.next == null) {
 
             last = null;
+
         }
 
         first = first.next;
