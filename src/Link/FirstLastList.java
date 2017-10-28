@@ -35,6 +35,7 @@ public class FirstLastList {
         if (isEmpty()) {
 
             first = newLink;
+
         } else {
             last.next = newLink;
         }
