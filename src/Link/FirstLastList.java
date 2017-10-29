@@ -37,7 +37,9 @@ public class FirstLastList {
             first = newLink;
 
         } else {
+
             last.next = newLink;
+
         }
         last = newLink;
     }
