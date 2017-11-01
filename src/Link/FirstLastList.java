@@ -59,6 +59,7 @@ public class FirstLastList {
         first = first.next;
 
         return temp;
+
     }
 
     public void displayList(){
