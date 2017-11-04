@@ -77,6 +77,7 @@ public class FirstLastList {
 
         FirstLastList firstLastList = new FirstLastList();
 
+
         firstLastList.insertFirst(30);
 
         firstLastList.insertFirst(20);
