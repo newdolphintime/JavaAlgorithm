@@ -42,6 +42,7 @@ public class FirstLastList {
             last.next = newLink;
 
         }
+
         last = newLink;
     }
 
