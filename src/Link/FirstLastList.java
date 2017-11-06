@@ -44,6 +44,7 @@ public class FirstLastList {
         }
 
         last = newLink;
+
     }
 
     public int deleteFirst()
