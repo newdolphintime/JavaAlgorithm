@@ -24,6 +24,7 @@ public class FirstLastList {
         Link newLink = new Link(dd);
 
         if (isEmpty()) {
+
             last = newLink;
         }
         newLink.next = first;
