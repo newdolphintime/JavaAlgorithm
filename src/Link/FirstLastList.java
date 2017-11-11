@@ -28,6 +28,7 @@ public class FirstLastList {
             last = newLink;
         }
         newLink.next = first;
+
         first = newLink;
     }
 
