@@ -30,6 +30,7 @@ public class FirstLastList {
         newLink.next = first;
 
         first = newLink;
+
     }
 
     public void insertLast(int ss) {
