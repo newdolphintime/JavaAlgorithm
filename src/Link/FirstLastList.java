@@ -12,6 +12,7 @@ public class FirstLastList {
 
     public FirstLastList() {
         first = null;
+
         last = null;
     }
 
