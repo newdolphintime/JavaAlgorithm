@@ -11,6 +11,7 @@ public class FirstLastList {
     private Link last;
 
     public FirstLastList() {
+
         first = null;
 
         last = null;
