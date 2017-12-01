@@ -15,6 +15,7 @@ public class FirstLastList {
         first = null;
 
         last = null;
+
     }
 
     public boolean isEmpty() {
